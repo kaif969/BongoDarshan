@@ -1,26 +1,30 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
+import kolkata from "../assets/kolkata.png"
+import sundarbans from "../assets/sundarbans.png"
+import dooars from "../assets/dooars.png"
+import darjeeling from "../assets/darjeeling.png"
 
 const destinations = [
   {
     name: "Kolkata",
     tours: "18 Tours",
-    image: "/placeholder.svg?height=200&width=300",
+    image: kolkata,
   },
   {
     name: "Sundarbans",
     tours: "26 Tours",
-    image: "/placeholder.svg?height=200&width=300",
+    image: sundarbans,
   },
   {
     name: "Dooars",
     tours: "22 Tours",
-    image: "/placeholder.svg?height=200&width=300",
+    image: dooars,
   },
   {
     name: "Darjeeling",
     tours: "32 Tours",
-    image: "/placeholder.svg?height=200&width=300",
+    image: darjeeling,
   },
 ]
 
@@ -40,9 +44,9 @@ export function TopDestinations() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
           {destinations.map((destination, index) => (
             <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow">
-              <div className="aspect-[4/3] relative">
+              <div className="aspect-[4/3] relative p-4">
                 <img
-                  src={destination.image || "/placeholder.svg"}
+                  src={destination.image}
                   alt={destination.name}
                   className="w-full h-full object-cover"
                 />

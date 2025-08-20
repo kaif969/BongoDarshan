@@ -7,8 +7,11 @@ export function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <h1 className="text-2xl font-bold">
-              <span className="text-amber-800">Bongo</span> <span className="text-amber-500">Darshan</span>
+             <div>
+              <img src="/BD_logo_removebg.png" alt="Bongo Darshan Logo" className="h-12" />
+            </div>
+            <h1 className=" text-xl lg:text-2xl font-bold">
+              <span className="text-amber-800">Bongo</span><span className="text-amber-500">Darshan</span>
             </h1>
           </div>
 
@@ -29,7 +32,7 @@ export function Header() {
           </nav>
 
           {/* Auth Buttons */}
-          <div className="flex items-center space-x-4">
+          <div className="hidden md:flex items-center space-x-4">
             <Button variant="outline" className="border-amber-700 text-amber-700 hover:bg-amber-50 bg-transparent">
               Login
             </Button>

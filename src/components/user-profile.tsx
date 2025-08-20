@@ -17,7 +17,7 @@ export function UserProfile() {
         </div>
 
         {/* User Info */}
-        <h2 className="text-xl font-semibold text-amber-800 mb-1">Rohit Mondal</h2>
+        <h2 className="text-xl font-semibold text-amber-800 mb-1">Sk Kaif Uddin</h2>
         <p className="text-gray-600">
           <span className="text-amber-600 font-medium">2</span> Travels
         </p>

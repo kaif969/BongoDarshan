@@ -1,22 +1,25 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { MapPin } from "lucide-react"
+import kolkata from "../assets/kolkata.png"
+import dooars from "../assets/dooars.png"
+import darjeeling from "../assets/darjeeling.png"
 
 const tours = [
   {
     location: "Kolkata",
     title: "Experience the Ecstasy: 6 Days of Durga Puja in Kolkata",
-    image: "/placeholder.svg?height=240&width=320",
+    image: kolkata,
   },
   {
     location: "Darjeeling",
     title: "Sunrise Over Kanchenjunga: A Darjeeling Escape",
-    image: "/placeholder.svg?height=240&width=320",
+    image: darjeeling,
   },
   {
     location: "Dooars",
     title: "3-Day Hill & River Retreat in Dooars: Samsing, Suntalekhola, Bindu",
-    image: "/placeholder.svg?height=240&width=320",
+    image: dooars,
   },
 ]
 
@@ -36,8 +39,8 @@ export function TopTours() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
           {tours.map((tour, index) => (
             <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow">
-              <div className="aspect-[4/3] relative">
-                <img src={tour.image || "/placeholder.svg"} alt={tour.title} className="w-full h-full object-cover" />
+              <div className="aspect-[4/3] relative p-4">
+                <img src={tour.image} alt={tour.title} className="w-full h-full object-cover" />
               </div>
               <CardContent className="p-6">
                 <div className="flex items-center text-amber-600 text-sm mb-3">
