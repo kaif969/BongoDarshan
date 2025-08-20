@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Card, CardContent } from "@/components/ui/card"
 import map from "@/assets/map.png"
-import Kolkata from "@/assets/kolkata.png"
+import kolkata from "@/assets/kolkata.png"
 
 export function MapSection() {
   return (
@@ -60,7 +60,7 @@ export function MapSection() {
         <Card className="w-48 shadow-lg">
           <div className="aspect-[4/3] relative">
             <img
-              src={Kolkata}
+              src={kolkata}
               alt="Kolkata"
               className="w-full h-full object-cover rounded-t-lg"
             />

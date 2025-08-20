@@ -1,29 +1,29 @@
 import { Card, CardContent } from "@/components/ui/card"
-import Kolkata from "@/assets/kolkata.png"
-import Sundarbans from "@/assets/sundarbans.png"
-import Dooars from "@/assets/dooars.png"
-import Darjeeling from "@/assets/darjeeling.png"
+import kolkata from "@/assets/kolkata.png"
+import sundarbans from "@/assets/sundarbans.png"
+import dooars from "@/assets/dooars.png"
+import darjeeling from "@/assets/darjeeling.png"
 
 const destinations = [
   {
     name: "Kolkata",
     tours: "18 Tours",
-    image: Kolkata,
+    image: kolkata,
   },
   {
     name: "Sundarbans",
     tours: "26 Tours",
-    image: Sundarbans,
+    image: sundarbans,
   },
   {
     name: "Dooars",
     tours: "22 Tours",
-    image: Dooars,
+    image: dooars,
   },
   {
     name: "Darjeeling",
     tours: "32 Tours",
-    image: Darjeeling,
+    image: darjeeling,
   },
 ]
 
