@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card"
 import Kolkata from "@/assets/kolkata.png"
 import Sundarbans from "@/assets/sundarbans.png"
-import Dooars from "@/assets/Dooars.png"
+import Dooars from "@/assets/dooars.png"
 import Darjeeling from "@/assets/darjeeling.png"
 
 const destinations = [
