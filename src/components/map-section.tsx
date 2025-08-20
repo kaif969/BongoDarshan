@@ -2,8 +2,8 @@ import { Search } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Card, CardContent } from "@/components/ui/card"
-import map from "@/assets/map.png"
-import kolkata from "@/assets/kolkata.png"
+import map from "../assets/map.png"
+import kolkata from "../assets/kolkata.png"
 
 export function MapSection() {
   return (

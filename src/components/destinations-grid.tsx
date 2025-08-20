@@ -1,8 +1,8 @@
 import { Card, CardContent } from "@/components/ui/card"
-import kolkata from "@/assets/kolkata.png"
-import sundarbans from "@/assets/sundarbans.png"
-import dooars from "@/assets/dooars.png"
-import darjeeling from "@/assets/darjeeling.png"
+import kolkata from "../assets/kolkata.png"
+import sundarbans from "../assets/sundarbans.png"
+import dooars from "../assets/dooars.png"
+import darjeeling from "../assets/darjeeling.png"
 
 const destinations = [
   {
